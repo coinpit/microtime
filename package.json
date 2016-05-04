@@ -1,0 +1,31 @@
+{
+  "name": "microtime.js",
+  "version": "1.0.0",
+  "description": "Utility to convert microtime into second, minute, etc",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha specs/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coinpit/microtime.git"
+  },
+  "keywords": [
+    "time",
+    "microsecond",
+    "microtime",
+    "convert"
+  ],
+  "author": "coinpit",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coinpit/microtime/issues"
+  },
+  "homepage": "https://github.com/coinpit/microtime#readme",
+  "devDependencies": {
+    "expect.js": "^0.3.1"
+  },
+  "dependencies": {
+    "microtime": "^2.1.1"
+  }
+}
